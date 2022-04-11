@@ -1,1 +1,4 @@
-"293921182"
+local WhitelistedPlayers = {
+  293921182
+}
+
