@@ -1,22 +1,22 @@
-Whitelisted = {
+Whitelist = {
   293921182,
   506683401
 } 
-PrivateWhitelisted = {
+PrivateWhitelist = {
   293921182,
   506683401
 }
 local UserId = game.Players.LocalPlayer.UserId
 local Whitelisted = false
 local PrivateWhitelisted = false
-for i,v in pairs(Whitelisted) do
-	if table.find(Whitelisted, v) then
+for i,v in pairs(Whitelist) do
+	if table.find(Whitelist, v) then
 		Whitelisted = true
 		print("Whitelisted")
 	end
 end
-for i,v in pairs (PrivateWhitelisted) do
-  if table.find(PrivateWhitelisted, v) then
+for i,v in pairs (PrivateWhitelist) do
+  if table.find(PrivateWhitelist, v) then
     PrivateWhitelisted = true
     print("Private Whitelisted")
   end
