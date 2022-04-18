@@ -10,12 +10,12 @@ local UserId = game.Players.LocalPlayer.UserId
 local Whitelisted = false
 local PrivateWhitelisted = false
 
-	if table.find(Whitelist, v) then
+	if table.find(Whitelist, UserId) then
 		Whitelisted = true
 		print("Whitelisted")
 	end
 
-  if table.find(PrivateWhitelist, v) then
+  if table.find(PrivateWhitelist, UserId) then
     PrivateWhitelisted = true
     print("Private Whitelisted")
   end
