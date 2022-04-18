@@ -9,18 +9,17 @@ PrivateWhitelist = {
 local UserId = game.Players.LocalPlayer.UserId
 local Whitelisted = false
 local PrivateWhitelisted = false
-for i,v in pairs(Whitelist) do
+
 	if table.find(Whitelist, v) then
 		Whitelisted = true
 		print("Whitelisted")
 	end
-end
-for i,v in pairs (PrivateWhitelist) do
+
   if table.find(PrivateWhitelist, v) then
     PrivateWhitelisted = true
     print("Private Whitelisted")
   end
-end
+
 wait(1)
 if Whitelisted == false then
 	game.Players.LocalPlayer:Kick("You're not whitelisted")
