@@ -20,7 +20,7 @@ local PrivateWhitelisted = false
     print("Private Whitelisted")
   end
 
-wait(1)
+wait()
 if Whitelisted == false then
 	game.Players.LocalPlayer:Kick("You're not whitelisted")
 end
