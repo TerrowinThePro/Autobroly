@@ -6,7 +6,9 @@ Whitelist = {
   467611373,
   3262352017,
   1164265363,
-  1737453808
+  1737453808,
+  959235717
+  
 } 
 
 PrivateWhitelist = {
@@ -17,7 +19,9 @@ PrivateWhitelist = {
   467611373,
   3262352017,
   1164265363,
-  1737453808
+  1737453808,
+  959235717
+  
 }
 
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
