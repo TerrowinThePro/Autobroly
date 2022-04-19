@@ -1,11 +1,15 @@
 Whitelist = {
   293921182,
-  506683401
+  506683401,
+  1050303558,
+  1254361141
 } 
 
 PrivateWhitelist = {
   293921182,
-  506683401
+  506683401,
+  1050303558,
+  1254361141
 }
 
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
